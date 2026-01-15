@@ -70,9 +70,9 @@
 // Ordering
 @for $i from 1 through 13 {
   .order-#{$i} {
-    order: $i;
+    order: $i !important;
   }
 }
 .order-n1 {
-  order: -1;
+  order: -1 !important;
 }

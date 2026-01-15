@@ -17,10 +17,10 @@
     to right,
     var(--border-color) 50%,
     var(--accent-color) 50%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  ) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
 }
 
 .bg-dual {
@@ -28,35 +28,37 @@
     to right,
     var(--border-color) 50%,
     var(--accent-color) 50%
-  );
+  ) !important;
 }
 
 .text-robux {
-	background: linear-gradient(to bottom, 
-		#efe0a3 0%,
-		#b8a569 50%,
-		#efe0a3 100%
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	color: transparent;
-}
-
-.bg-robux {
-  background: linear-gradient(to bottom, 
+  background: linear-gradient(
+    to bottom,
     #efe0a3 0%,
     #b8a569 50%,
     #efe0a3 100%
-  );
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.bg-robux {
+  background: linear-gradient(
+    to bottom,
+    #efe0a3 0%,
+    #b8a569 50%,
+    #efe0a3 100%
+  ) !important;
 }
 
 .bg-splatter {
-  background: var(--splatter-bg);
+  background: var(--splatter-bg) !important;
 }
 
 .bg-splatter-red {
-  background: var(--splatter-bg-red);
+  background: var(--splatter-bg-red) !important;
 }
 
 .gradient-center {
