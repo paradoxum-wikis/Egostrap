@@ -3,6 +3,7 @@
 
 @use "variables" as *;
 @use "sass:meta";
+@use "sass:map";
 
 // Spacing (Margin & Padding)
 $space-properties: (
@@ -89,4 +90,11 @@ $space-directions: (
 .mb-none > .article-media-thumbnail,
 .mb-none > p {
   margin-bottom: 0 !important;
+}
+
+@media (min-width: map.get($breakpoints, md)) {
+  .px-none {
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+  }
 }
