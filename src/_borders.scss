@@ -91,14 +91,14 @@ $radius-corners: (
 
 @each $name, $color in $theme-colors {
   .border-#{$name} {
-    border: 1px solid $color !important;
+    border: 1px solid $color;
   }
 }
 .border-light {
-  border: 1px solid var(--ego-light) !important;
+  border: 1px solid var(--ego-light);
 }
 .border-dark {
-  border: 1px solid var(--ego-dark) !important;
+  border: 1px solid var(--ego-dark);
 }
 
 // Table Utilities
