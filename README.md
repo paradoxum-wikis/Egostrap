@@ -6,6 +6,17 @@ The compiled CSS file will get transferred automatically to the wiki.
 
 Documentation can be found [here](https://alter-ego.fandom.com/wiki/Help:Manual/Framework).
 
+## Wiki installation
+On your wiki, import the following into your CSS:
+```css
+@import "/load.php?articles=u:alterego:MediaWiki:Egostrap.css&only=styles&mode=articles";
+```
+
+If you'd like to install Egostrap Icons as well:
+```css
+@import "/load.php?articles=u:alterego:MediaWiki:Egostrap.css|u:alterego:MediaWiki:EgoIcons.css&only=styles&mode=articles";
+```
+
 ## Installation
 
 1. Clone the repository:
