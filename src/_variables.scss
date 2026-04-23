@@ -29,13 +29,12 @@ $theme-colors: (
   "nav-text": var(--theme-sticky-nav-text-color),
   "nav-bg": var(--theme-sticky-nav-background-color),
   "border": var(--border-color),
-  "link": var(--theme-link-color)
+  "link": var(--theme-link-color),
 );
 
 // Layout
 $border-radius: 3px;
-$spacer: 1rem;
-$gutter-x: 1.5rem;
+$gutter-x: 1rem;
 $gutter-y: 0;
 
 // Breakpoints
@@ -50,11 +49,11 @@ $breakpoints: (
 // Spacing
 $spacing-steps: (
   "0": 0,
-  "1": $spacer * 0.25,
-  "2": $spacer * 0.5,
-  "3": $spacer,
-  "4": $spacer * 1.5,
-  "5": $spacer * 3,
-  "6": $spacer * 5,
+  "1": $gutter-x * 0.25,
+  "2": $gutter-x * 0.5,
+  "3": $gutter-x,
+  "4": $gutter-x * 1.5,
+  "5": $gutter-x * 3,
+  "6": $gutter-x * 5,
   "auto": auto,
 );
